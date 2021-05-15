@@ -1,0 +1,52 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-app-region: drag;
+}
+
+button,
+a,
+input,
+textarea,
+span,
+i {
+  -webkit-app-region: no-drag;
+}
+.desktop-app-title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #24292e;
+}
+
+.icon-github {
+  background: #d1d5da;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.desktop-app-title-bar-right button {
+  width: 45px;
+  height: 28px;
+  background: #24292e;
+  border: 0;
+  outline: none;
+}
+
+.desktop-app-title-bar-right button .iconfont {
+  font-size: 10px;
+  color: #a0a0a0;
+}
+#close:hover {
+  background: #e90f25;
+}
+.desktop-app-title-bar-right button:hover .iconfont {
+  color: #fff;
+}
+
+#maximize:hover,
+#minimize:hover {
+  background: #878787;
+}
